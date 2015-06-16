@@ -5,7 +5,7 @@ carouseller.js
 
 Simple and easy to use carousel script.
 
-
+![Demo Page screenshot](http://i.imgur.com/fABgcwF.jpg)
 
 ## Features
 
