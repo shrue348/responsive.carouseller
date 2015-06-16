@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive jQuery Carouseller</title>
+    <link rel="stylesheet" href="css/carouseller.css">
+</head>
+<body>
+	<div class="works_item alignleft clear">
+		<h1>Responsive jQuery Carouseller </h1>	
+			
+		<div class="carouseller row-fluid for-car"> 
+			<div class="carousel-wrapper"> 
+				<div class="carousel-items"> 
+					<div class="span3 carousel-block">
+						<h2>1 item</h2>
+					</div>
+					<div class="span3 carousel-block">
+						<h2>2 item</h2>
+					</div>
+					<div class="span3 carousel-block">
+						<h2>3 item</h2>
+					</div>
+					<div class="span3 carousel-block">
+						<h2>4 item</h2>
+					</div>
+					<div class="span3 carousel-block">
+						<h2>5 item</h2>
+					</div>
+					<div class="span3 carousel-block">
+						<h2>6 item</h2>
+					</div>
+					<div class="span3 carousel-block">
+						<h2>7 item</h2>
+					</div>
+				</div>
+			</div>
+			<div class="carousel-control-block">
+				<div class="carousel-button-left shadow"><a href="javascript:void(0)">‹</a></div> 
+				<div class="carousel-button-right shadow"><a href="javascript:void(0)">›</a></div> 
+			</div>
+		</div>
+	</div>
+
+
+	<h2>Manually installation</h2>
+
+	<p>1. Download `carouseller.css` and `carouseller.min.js` files from `dist` folder.</p>
+	<p>2. Include them somewhere in your document:</p>
+
+
+	<h3>html</h3>
+	<xmp>
+		<link rel="stylesheet" href="css/carouseller.css">
+		<script src="js/carouseller.min.js"></script>
+	</xmp>
+
+
+	<h2>Usage</h2>
+
+	<h3>Initialization</h3>
+
+	<p>Initialize a new carousel by running:</p>
+	<xmp>
+	$(function() {
+		carouseller = new carousel('.carouseller');
+	});
+	</xmp>
+	
+	<p>The HTML code may look like this:</p>
+	<xmp>
+	<div class="carouseller row-fluid for-car"> 
+		<div class="carousel-wrapper"> 
+			<div class="carousel-items"> 
+				<div class="span3 carousel-block">
+					<h2>1 item</h2>
+				</div>
+				...
+			</div>
+		</div>
+		<div class="carousel-control-block">
+			<div class="carousel-button-left shadow"><a href="javascript:void(0)">‹</a></div> 
+			<div class="carousel-button-right shadow"><a href="javascript:void(0)">›</a></div> 
+		</div>
+	</div>
+	</xmp>
+
+
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src="js/carouseller.min.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			carouseller = new carousel('.carouseller');
+		});
+	</script>
+</body>
+</html>
