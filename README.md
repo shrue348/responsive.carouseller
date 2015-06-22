@@ -47,8 +47,8 @@ The HTML code may look like this:
 		</div>
 	</div>
 	<div class="carousel-control-block">
-		<div class="carousel-button-left shadow"><a href="javascript:void(0)">‹</a></div> 
-		<div class="carousel-button-right shadow"><a href="javascript:void(0)">›</a></div> 
+		<div class="carousel-button-left"><a href="javascript:void(0)">‹</a></div> 
+		<div class="carousel-button-right"><a href="javascript:void(0)">›</a></div> 
 	</div>
 </div>
 ```
