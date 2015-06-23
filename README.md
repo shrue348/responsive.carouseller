@@ -1,5 +1,5 @@
 # responsive.carouseller
-Responsive jQuery Carousel
+Responsive 1-step jQuery Carousel
 carouseller.js
 ==============
 
