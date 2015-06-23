@@ -59,7 +59,7 @@ The HTML code may look like this:
 
 ## Compatibility
 
-* IE 10+
+* IE 9+
 * Chrome
 * Firefox 3.6+
 * Opera 12+
