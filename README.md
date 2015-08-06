@@ -11,7 +11,7 @@ Simple and easy to use carousel script.
 
 ## Features
 
-* Responsive GRID (like Bootstrap)
+* Responsive GRID (like Bootstrap2 '.span3 .span4 etc')
 * Easy to use
 
 
