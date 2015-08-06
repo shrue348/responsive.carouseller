@@ -1,4 +1,4 @@
-# responsive.carouseller
+# Basic Responsive Carousel Plugin For jQuery - Carouseller
 Responsive 1-step jQuery Carousel
 carouseller.js
 ==============
