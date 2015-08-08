@@ -3,15 +3,15 @@
 .row-fluid:after { clear: both;}
 
 .row-fluid.for-car [class*="span"]{
-    margin-left: 0.2564102564102564%;
-    *margin-left: 0.25109110747408616%;
+    margin-left: 0.2564102564102564% !importan;
+    *margin-left: 0.25109110747408616% !important;
     float: left;
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
 }
 .row-fluid [class*="span"]:first-child, .row-fluid.for-car [class*="span"]:first-child  {
-    margin-left: 0;
+    margin-left: 0 !important;
 }
 
 .row-fluid.for-car > .carousel-wrapper > .carousel-items > .span_by5 { width: 1.793789743589745%; *width: 1.748908892525914%;}
