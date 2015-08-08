@@ -3,7 +3,7 @@
 .row-fluid:after { clear: both;}
 
 .row-fluid.for-car [class*="span"]{
-    margin-left: 0.2564102564102564% !importan;
+    margin-left: 0.2564102564102564% !important;
     *margin-left: 0.25109110747408616% !important;
     float: left;
     -webkit-box-sizing: border-box;
