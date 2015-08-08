@@ -21,9 +21,9 @@ carousel.prototype = {
     left: function() {
         if (!this.stop) {
             this.stop = !0;
-            var i = $(this.obj).find(".carousel-block").outerWidth();
+            var t = $(this.obj).find(".carousel-block").outerWidth();
             $(this.obj).find(".carousel-items .carousel-block").eq(-1).prependTo($(this.obj).find(".carousel-items")), $(this.obj).find(".carousel-items").css({
-                left: "-" + i + "px"
+                left: "-" + t + "px"
             }), $(this.obj).find(".carousel-items").animate({
                 left: "0px"
             }, this.scrollSpeed, function() {
@@ -34,13 +34,15 @@ carousel.prototype = {
     right: function() {
         if (!this.stop) {
             this.stop = !0;
-            var i = $(this.obj).find(".carousel-block").outerWidth();
+            var t = $(this.obj).find(".carousel-block").outerWidth();
             $(this.obj).find(".carousel-items").animate({
-                left: "-" + i + "px"
+                left: "-" + t + "px"
             }, this.scrollSpeed, function() {
-                $(this.obj).find(".carousel-items .carousel-block").eq(0).css("margin-left", "0.25641%"), $(this.obj).find(".carousel-items .carousel-block").eq(0).appendTo($(this.obj).find(".carousel-items")), $(this.obj).find(".carousel-items .carousel-block").eq(0).css("margin-left", "0"), $(this.obj).find(".carousel-items").css({
+                $(this.obj).find(".carousel-items .carousel-block").eq(0).appendTo($(this.obj).find(".carousel-items")), 
+                $(this.obj).find(".carousel-items").css({
                     left: "0px"
-                }), this.stop = !1
+                }), 
+                this.stop = !1
             }.bind(this))
         }
     }
