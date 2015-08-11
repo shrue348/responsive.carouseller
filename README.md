@@ -34,9 +34,11 @@ Simple and easy to use carousel script.
 Initialize a new carousel by running:
 ```js
 $(function() {
-	carouseller = new carousel('.carouseller');
+	carouseller = new carousel('.carouseller', 2000);
 });
 ```
+2000 - autoscroll delay in ms
+
 The HTML code may look like this:
 ```html
 <div class="carouseller row-fluid for-car"> 
