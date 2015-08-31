@@ -9,7 +9,7 @@ var carousel = function(i, t) {
 	$(this.obj).find('.carousel-items').css('height', function(){
 		var max = 0;
 		$(this).children().each(function() {
-			max = Math.max( max, $(this).height() );
+			max = Math.max( max, $(this).outerHeight() );
 		});
 		return max;
 	});
