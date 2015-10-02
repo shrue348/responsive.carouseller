@@ -33,9 +33,11 @@
 .for-car .carousel-items { position: relative; width: 997.4358974358974%;}
 .for-car .carousel-items > .carousel-block { transition: margin-left 0.05s ease-out;}
 .for-car .carousel-block { display: inline-block; position: relative; }
-.for-car .carousel-wrapper { overflow: hidden; position: relative;}
-.for-car .carousel-control-block { text-align: center;}
-.for-car .carousel-control-block > .carousel-button-left, .for-car .carousel-control-block > .carousel-button-right { display: inline-block; margin: 0 25px;}
+.for-car .carousel-wrapper { overflow: hidden; position: relative; margin: 0 35px;}
+.for-car .carousel-control-block { text-align: center; position: relative;}
+.for-car .carousel-control-block > .carousel-button-left, .for-car .carousel-control-block > .carousel-button-right { position: absolute; margin: 0; bottom: 25px;}
+.for-car .carousel-control-block > .carousel-button-left { left: 0;}
+.for-car .carousel-control-block > .carousel-button-right { right: 0;}
 .for-car .carousel-control-block > .carousel-button-left > a, .for-car .carousel-control-block > .carousel-button-right > a { 
     background: none repeat scroll 0 0 transparent;
     font-size: 80px;
@@ -45,11 +47,6 @@
 	text-decoration: none;
 }
 .for-car .carousel-control-block > .carousel-button-left > a:hover, .for-car .carousel-control-block > .carousel-button-right > a:hover { opacity: 0.8;}
-.carousel-block { text-align: center; font-size: 30px; font-weight: bold;}
-
-
-h1 {font-size: 40px; margin-bottom: 30px;}
-
 
 /*------Responsive-----------*/
 /* Portrait tablet to landscape and desktop */
@@ -100,3 +97,9 @@ h1 {font-size: 40px; margin-bottom: 30px;}
 	.row-fluid.for-car > .carousel-wrapper > .carousel-items > .span2,
 	.row-fluid.for-car > .carousel-wrapper > .carousel-items > .span1 { width: 10%; *width: 9.94680851063829%;}
 }
+
+/* This can be deleted */
+
+.carousel-block { text-align: center; font-size: 30px; font-weight: bold; background-color: #e5e5e5;}
+h1 {font-size: 40px; margin-bottom: 30px;}
+
