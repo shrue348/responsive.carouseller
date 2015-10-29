@@ -30,7 +30,7 @@
 
 /*------Carouseller--------*/
 .for-car { position: relative;}
-.for-car .carousel-items { position: relative; width: 997.4358974358974%;}
+.for-car .carousel-items { position: relative; width: 997.4358974358974%; overflow: hidden;}
 .for-car .carousel-items > .carousel-block { transition: margin-left 0.05s ease-out;}
 .for-car .carousel-block { display: inline-block; position: relative; }
 .for-car .carousel-wrapper { overflow: hidden; position: relative;}
