@@ -2,7 +2,7 @@
 Responsive 1-step jQuery Carousel
 carouseller.js
 ==============
-<a href="http://codepen.io/shure348/pen/xGPgwo">DEMO on CodePen</a>
+<a href="http://codepen.io/shure348/pen/dYaNGp">DEMO on CodePen</a>
 
 
 Simple and easy to use carousel script.
