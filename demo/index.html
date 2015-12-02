@@ -7,9 +7,10 @@
 </head>
 <body>
 	<div class="works_item alignleft clear">
-		<h1>Responsive jQuery Carouseller </h1>	
+		<h1>Lite Responsive jQuery Carousel - Carouseller </h1>	
 			
-		<div class="carouseller row-fluid for-car"> 
+		<div class="carouseller"> 
+			<a href="javascript:void(0)" class="carousel-button-left">‹</a> 
 			<div class="carousel-wrapper"> 
 				<div class="carousel-items"> 
 					<div class="span3 carousel-block">
@@ -35,10 +36,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="carousel-control-block">
-				<div class="carousel-button-left shadow"><a href="javascript:void(0)">‹</a></div> 
-				<div class="carousel-button-right shadow"><a href="javascript:void(0)">›</a></div> 
-			</div>
+			<a href="javascript:void(0)" class="carousel-button-right">›</a>
 		</div>
 	</div>
 
@@ -63,13 +61,14 @@
 	<p>Initialize a new carousel by running:</p>
 	<xmp>
 	$(function() {
-		carouseller = new carousel('.carouseller');
+		some_name = new carousel('.some_class');
 	});
 	</xmp>
 	
 	<p>The HTML code may look like this:</p>
 	<xmp>
-	<div class="carouseller row-fluid for-car"> 
+	<div class="carouseller some_class"> 
+		<a href="javascript:void(0)" class="carousel-button-left">‹</a> 
 		<div class="carousel-wrapper"> 
 			<div class="carousel-items"> 
 				<div class="span3 carousel-block">
@@ -78,10 +77,7 @@
 				...
 			</div>
 		</div>
-		<div class="carousel-control-block">
-			<div class="carousel-button-left shadow"><a href="javascript:void(0)">‹</a></div> 
-			<div class="carousel-button-right shadow"><a href="javascript:void(0)">›</a></div> 
-		</div>
+		<a href="javascript:void(0)" class="carousel-button-right">›</a> 
 	</div>
 	</xmp>
 

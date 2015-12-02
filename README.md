@@ -34,27 +34,27 @@ Simple and easy to use carousel script.
 Initialize a new carousel by running:
 ```js
 $(function() {
-	some_name = new carousel('.carouseller', 2000);
+	some_name = new carousel('.some_class', 2000);
 });
 ```
 2000 - autoscroll delay in ms
 
 The HTML code may look like this:
 ```html
-<div class="carouseller row-fluid for-car"> 
-	<div class="carousel-wrapper"> 
-		<div class="carousel-items"> 
-			<div class="span3 carousel-block">
-				<h2>1 item</h2>
+
+	<div class="carouseller some_class"> 
+		<a href="javascript:void(0)" class="carousel-button-left">‹</a> 
+		<div class="carousel-wrapper"> 
+			<div class="carousel-items"> 
+				<div class="span3 carousel-block">
+					<h2>1 item</h2>
+				</div>
+				...
 			</div>
-			...
 		</div>
+		<a href="javascript:void(0)" class="carousel-button-right">›</a> 
 	</div>
-	<div class="carousel-control-block">
-		<div class="carousel-button-left"><a href="javascript:void(0)">‹</a></div> 
-		<div class="carousel-button-right"><a href="javascript:void(0)">›</a></div> 
-	</div>
-</div>
+
 ```
 
 
