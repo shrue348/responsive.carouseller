@@ -1,5 +1,5 @@
 # Lite Responsive Carousel Plugin For jQuery - Carouseller
-Responsive 1-step jQuery Carousel
+Responsive 1-step jQuery Carousel (with touch-swipe)
 carouseller.js
 ==============
 <a href="http://codepen.io/shure348/pen/dYaNGp">DEMO on CodePen</a>
