@@ -43,10 +43,10 @@ $(function() {
 
 ### Options
 
-*scrollSpeed: 150 (default) - scrollspeed in ms,
-*autoScrollDelay: 0 (default) - autoscroll delay in ms,
-*hoverStopScroll: true (default) stop carousel scroll on mouse over,
-*easing: 'linear' (default) animation name (jquery.easing.js required)
+* scrollSpeed: 150 (default) - scrollspeed in ms,
+* autoScrollDelay: 0 (default) - autoscroll delay in ms,
+* hoverStopScroll: true (default) stop carousel scroll on mouse over,
+* easing: 'linear' (default) animation name (jquery.easing.js required)
 
 
 ###The HTML code may look like this:
