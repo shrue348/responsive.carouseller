@@ -1,5 +1,5 @@
 # Lite Responsive Carousel Plugin For jQuery - Carouseller
-Responsive 1-step jQuery Carousel 
+Responsive 1-step jQuery Carousel with touch-swipe scroll
 carouseller.js
 ==============
 <a href="http://codepen.io/shure348/pen/dYaNGp" target="_blank">DEMO on CodePen</a>
@@ -13,6 +13,7 @@ Simple and easy to use carousel script.
 
 * Responsive GRID (like Bootstrap2 '.span3 .span4 etc')
 * Easy to use
+* Touch-swipe scroll support
 
 
 
@@ -44,6 +45,7 @@ $(function() {
 ### Options
 
 * scrollSpeed: 150 (default) - scrollspeed in ms,
+* sens: 100 (defaul) - touch scroll sensitivity in px,
 * autoScrollDelay: 0 (default) - autoscroll delay in ms,
 * hoverStopScroll: true (default) stop carousel scroll on mouse over,
 * easing: 'linear' (default) animation name (jquery.easing.js required)
