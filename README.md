@@ -11,7 +11,7 @@ Simple and easy to use carousel script.
 
 ## Features
 
-* Responsive GRID (like Bootstrap2 '.span3 .span4 etc')
+* Responsive 12-columns GRID 
 * Easy to use
 * Touch-swipe scroll support
 
@@ -54,17 +54,17 @@ $(function() {
 ###The HTML code may look like this:
 ```html
 
-	<div class="carouseller some_class"> 
-		<a href="javascript:void(0)" class="carousel-button-left">‹</a> 
-		<div class="carousel-wrapper"> 
-			<div class="carousel-items"> 
-				<div class="span3 carousel-block">
-					<h2>1 item</h2>
+	<div class="carouseller"> 
+		<a href="javascript:void(0)" class="carouseller__left">‹</a> 
+		<div class="carouseller__wrap"> 
+			<div class="carouseller__list"> 
+				<div class="car__3">
+					data
 				</div>
 				...
 			</div>
 		</div>
-		<a href="javascript:void(0)" class="carousel-button-right">›</a> 
+		<a href="javascript:void(0)" class="carouseller__right">›</a> 
 	</div>
 
 ```
@@ -86,6 +86,6 @@ Feel free to report any bugs!
 
 ## License
 
-Copyright (c) 2015 [shure348](https://github.com/shrue348/)
+Copyright (c) 2015-2017 [shure348](https://github.com/shrue348/)
 
 This content is released under the [MIT License](http://opensource.org/licenses/MIT).
