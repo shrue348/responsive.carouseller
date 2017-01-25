@@ -76,9 +76,3 @@
 	.carouseller .car__1 { width: 10%;}
 }
 
-
-
-/* This can be deleted */
-[class*="car__"] { text-align: center; font-size: 30px; font-weight: bold; background-color: #e5e5e5;}
-h1 {font-size: 40px; margin-bottom: 30px;}
-.carouseller { margin-bottom: 20px;}
